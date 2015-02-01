@@ -12,6 +12,11 @@
 		9359956B1A7E6047003D7D37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9359956A1A7E6047003D7D37 /* Images.xcassets */; };
 		9359956E1A7E6048003D7D37 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9359956C1A7E6048003D7D37 /* MainMenu.xib */; };
 		9359957A1A7E6048003D7D37 /* TableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 935995791A7E6048003D7D37 /* TableViewDemoTests.m */; };
+		935995891A7E6B0E003D7D37 /* GifCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 935995881A7E6B0E003D7D37 /* GifCell.m */; };
+		9359958E1A7E6E57003D7D37 /* songListWave.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9359958A1A7E6E57003D7D37 /* songListWave.gif */; };
+		9359958F1A7E6E57003D7D37 /* songListWave@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9359958B1A7E6E57003D7D37 /* songListWave@2x.gif */; };
+		935995901A7E6E57003D7D37 /* songListWaveSelected.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9359958C1A7E6E57003D7D37 /* songListWaveSelected.gif */; };
+		935995911A7E6E57003D7D37 /* songListWaveSelected@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9359958D1A7E6E57003D7D37 /* songListWaveSelected@2x.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,12 @@
 		935995731A7E6048003D7D37 /* TableViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		935995781A7E6048003D7D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		935995791A7E6048003D7D37 /* TableViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewDemoTests.m; sourceTree = "<group>"; };
+		935995871A7E6B0E003D7D37 /* GifCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifCell.h; sourceTree = "<group>"; };
+		935995881A7E6B0E003D7D37 /* GifCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifCell.m; sourceTree = "<group>"; };
+		9359958A1A7E6E57003D7D37 /* songListWave.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = songListWave.gif; sourceTree = "<group>"; };
+		9359958B1A7E6E57003D7D37 /* songListWave@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "songListWave@2x.gif"; sourceTree = "<group>"; };
+		9359958C1A7E6E57003D7D37 /* songListWaveSelected.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = songListWaveSelected.gif; sourceTree = "<group>"; };
+		9359958D1A7E6E57003D7D37 /* songListWaveSelected@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "songListWaveSelected@2x.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,11 +87,17 @@
 		935995621A7E6047003D7D37 /* TableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9359958A1A7E6E57003D7D37 /* songListWave.gif */,
+				9359958B1A7E6E57003D7D37 /* songListWave@2x.gif */,
+				9359958C1A7E6E57003D7D37 /* songListWaveSelected.gif */,
+				9359958D1A7E6E57003D7D37 /* songListWaveSelected@2x.gif */,
 				935995651A7E6047003D7D37 /* AppDelegate.h */,
 				935995661A7E6047003D7D37 /* AppDelegate.m */,
 				9359956A1A7E6047003D7D37 /* Images.xcassets */,
 				9359956C1A7E6048003D7D37 /* MainMenu.xib */,
 				935995631A7E6047003D7D37 /* Supporting Files */,
+				935995871A7E6B0E003D7D37 /* GifCell.h */,
+				935995881A7E6B0E003D7D37 /* GifCell.m */,
 			);
 			path = TableViewDemo;
 			sourceTree = "<group>";
@@ -192,7 +209,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9359956B1A7E6047003D7D37 /* Images.xcassets in Resources */,
+				9359958E1A7E6E57003D7D37 /* songListWave.gif in Resources */,
+				935995911A7E6E57003D7D37 /* songListWaveSelected@2x.gif in Resources */,
 				9359956E1A7E6048003D7D37 /* MainMenu.xib in Resources */,
+				935995901A7E6E57003D7D37 /* songListWaveSelected.gif in Resources */,
+				9359958F1A7E6E57003D7D37 /* songListWave@2x.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +233,7 @@
 			files = (
 				935995691A7E6047003D7D37 /* main.m in Sources */,
 				935995671A7E6047003D7D37 /* AppDelegate.m in Sources */,
+				935995891A7E6B0E003D7D37 /* GifCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

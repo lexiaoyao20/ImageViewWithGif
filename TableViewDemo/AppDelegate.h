@@ -8,7 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate> {
+    IBOutlet   NSImageView *_imageView;
+    IBOutlet   NSTableView *_tableView;
+    NSArray    *_images;
+}
 
 
 @end
